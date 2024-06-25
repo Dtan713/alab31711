@@ -1,7 +1,7 @@
 class Vehicle {
     status = "stopped";
   
-    constructor(make, model, wheels) {
+    constructor(make:unknown, model:unknown, wheels:unknown) {
       this.make = make;
       this.model = model;
       this.wheels = wheels;
