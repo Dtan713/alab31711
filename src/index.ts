@@ -22,10 +22,15 @@ class Vehicle {
       super(make, model, 4 );
     }
   }
-  
+  class MotorCycle extends Vehicle {
+    status: string = "stopped"
+     make: string;
+     model: string;
+     
+
   class MotorCycle extends Vehicle {
     constructor(make: string, model: string) {
-      super(make, model, 2);
+      super(make, model, ;
     }
   }
   
